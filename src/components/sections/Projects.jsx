@@ -12,23 +12,21 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Proyecto 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              {/* Video agregado */}
               <video
                 src="/public/Banana.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-72 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold mb-2">BananaPeels</h3>
               <p className="text-gray-400 mb-4">
-                Página web de venta de productos de decoración.
+                BananaPeels es una plataforma web de compra y venta de productos entre particulares. Permite a los usuarios registrarse, gestionar sus anuncios, contactar a vendedores mediante chat en tiempo real y marcar favoritos.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS"].map((tech, key) => (
+                {["React", "Vite", "TailwindCSS", "Axios", "Socket.IO Client","Node.js", "i18n", "AWS", "Ngix", "certificado SSL"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -46,26 +44,33 @@ export const Projects = () => {
                 >
                   View Project ➡️
                 </a>
+                                <a
+                  href="https://github.com/orgs/PruebasBananaPeelsTeam/repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Code ➡️
+                </a>
               </div>
             </div>
 
-            {/* Proyecto 2 */}
+
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              {/* Video agregado */}
               <video
-                src="/videos/passwordGenerator.mp4"
+                src="/public/Password.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-72 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold mb-2">Password Generator</h3>
               <p className="text-gray-400 mb-4">
-                Plataforma de cursos en línea para desarrolladores modernos.
+                Este proyecto es un generador de contraseñas aleatorias en el cual puedes configurar la longitud de la contraseña y elegir qué tipos de caracteres deseas incluir, como mayúsculas, minúsculas, números y símbolos. Además, incluye la funcionalidad para copiar la contraseña al portapapeles con un solo clic.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Vue.js", "Firebase", "TailwindCSS"].map((tech, key) => (
+                {["HTML", "CSS", "JavaScript", "Clipboard.js"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -76,35 +81,33 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Aida230/Generator-password"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project ➡️
+                  View Code ➡️
                 </a>
               </div>
             </div>
 
-            {/* Proyecto 3 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              {/* Video agregado */}
               <video
-                src="/videos/colorPalette.mp4"
+                src="/public/colorPalette.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-72 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold mb-2">
                 Color-Palette Generator
               </h3>
               <p className="text-gray-400 mb-4">
-                App móvil para descubrir recetas rápidas y saludables.
+                Este proyecto es una herramienta simple para generar paletas de colores aleatorias en formato hexadecimal. La paleta se genera dinámicamente cada vez que el usuario hace clic en el botón "Generate palette".
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React Native", "Expo", "MongoDB"].map((tech, key) => (
+                {["HTML", "CSS", "JavaScript"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -115,12 +118,12 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Aida230/Color-Palette-Generator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project ➡️
+                  View Code ➡️
                 </a>
               </div>
             </div>
