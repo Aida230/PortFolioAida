@@ -14,6 +14,15 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Proyecto 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              {/* Video agregado */}
+              <video
+                src="/public/Banana.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">BananaPeels</h3>
               <p className="text-gray-400 mb-4">
                 Página web de venta de productos de decoración.
@@ -30,7 +39,9 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://bananapeels.duckdns.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project ➡️
@@ -40,7 +51,16 @@ export const Projects = () => {
 
             {/* Proyecto 2 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Password Generate</h3>
+              {/* Video agregado */}
+              <video
+                src="/videos/passwordGenerator.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-bold mb-2">Password Generator</h3>
               <p className="text-gray-400 mb-4">
                 Plataforma de cursos en línea para desarrolladores modernos.
               </p>
@@ -57,6 +77,8 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project ➡️
@@ -66,6 +88,15 @@ export const Projects = () => {
 
             {/* Proyecto 3 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              {/* Video agregado */}
+              <video
+                src="/videos/colorPalette.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">
                 Color-Palette Generator
               </h3>
@@ -85,6 +116,8 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project ➡️
