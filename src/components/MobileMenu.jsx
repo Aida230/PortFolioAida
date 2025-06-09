@@ -1,6 +1,10 @@
+// src/components/MobileMenu.jsx
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
+  const { t } = useTranslation(); // Hook de traducción
+
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
@@ -21,47 +25,42 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         &times;
       </button>
-      {/* Aquí puedes poner los links, por ejemplo */}
+
+      {/* Links */}
       <a
         href="#home"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-          ${
-            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-          }`}
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
       >
-        Home
+        {t('nav.home')}
       </a>
 
       <a
         href="#about"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-          ${
-            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-          }`}
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
       >
-        About
+        {t('nav.about')}
       </a>
+
       <a
         href="#projects"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-          ${
-            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-          }`}
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
       >
-        Projects
+        {t('nav.projects')}
       </a>
+
       <a
         href="#contact"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-          ${
-            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-          }`}
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
       >
-        Contact
+        {t('nav.contact')}
       </a>
     </div>
   );
