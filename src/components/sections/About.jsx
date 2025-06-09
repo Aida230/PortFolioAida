@@ -112,18 +112,15 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-4">
                 <li>
                   <strong>Full Stack Web Development</strong> — KeepCoding Tech
-                  School (Junio 2024 – Actualmente)
+                  School (Junio 2024 – Junio 2025)
                   <br />
-                  Formación intensiva en desarrollo de aplicaciones web
-                  modernas, frontend y backend, arquitectura de software y
-                  despliegue en la nube.
+                  Intensive training in the development of modern web applications, both frontend and backend, software architecture, and cloud deployment.
                 </li>
                 <li>
-                  <strong>Grado Superior en Comercio Internacional</strong> —
+                  <strong>Higher National Diploma in International Trade</strong> —
                   I.E.S. Zaidín Vergeles (2017 – 2019)
                   <br />
-                  Estudios centrados en negocios internacionales, logística y
-                  gestión comercial.
+                  Studies focused on international business, logistics, and commercial management.
                 </li>
               </ul>
             </div>
@@ -136,41 +133,37 @@ export const About = () => {
                     Full Stack Web Developer — KeepCoding, España
                   </h4>
                   <p className="text-sm">
-                    <em>Junio 2024 – Actualmente</em>
+                    <em>Junio 2024 – Junio 2025</em>
                   </p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
                     <li>
-                      Desarrollo de aplicaciones web full stack con React,
-                      Node.js y MongoDB.
+                      Development of full-stack web applications with React, Node.js, and MongoDB.
                     </li>
                     <li>
-                      Implementación de API REST y autenticación JWT segura.
+                      Implementation of REST APIs and secure JWT authentication.
                     </li>
                     <li>
-                      Despliegue de proyectos en AWS usando Nginx y Certbot
-                      (SSL).
+                      Deployment of projects on AWS using Nginx and Certbot (SSL).
                     </li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-semibold text-lg">
-                    Sous Chef — Andanza Restaurant, Londres
+                    Sous Chef — Andanza Restaurant, London.
                   </h4>
                   <p className="text-sm">
                     <em>Septiembre 2021 – Abril 2024</em>
                   </p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
                     <li>
-                      Coordinación de equipos en entornos de alta presión.
+                      Team coordination in high-pressure environments.
                     </li>
                     <li>
-                      Desarrollo de habilidades de gestión del tiempo y
-                      liderazgo.
+                      Development of time management and leadership skills.
                     </li>
                     <li>
-                      Colaboración en la creación de menús y supervisión de
-                      calidad culinaria.
+                      Collaboration in menu creation and supervision of culinary quality.
                     </li>
                   </ul>
                 </div>
