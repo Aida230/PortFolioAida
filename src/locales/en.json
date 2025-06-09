@@ -10,7 +10,59 @@
     "description": "I'm a full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.",
     "viewProjects": "View Projects",
     "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm Aida Fuentes, a Full Stack Developer passionate about building web applications that combine functionality with outstanding user experience. After years in demanding environments like the gastronomy industry, I discovered web development as a way to channel my creativity and discipline into real technological solutions...",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "softSkills": "Soft Skills",
+    "softSkillsList": [
+      "Teamwork",
+      "Communication",
+      "Problem-solving",
+      "Adaptability",
+      "Attention to detail",
+      "Resilience",
+      "Geographic mobility",
+      "Growth mindset"
+    ],
+    "education": {
+      "title": "Education",
+      "course1": {
+        "title": "Full Stack Web Development",
+        "school": "KeepCoding Tech School (June 2024 – June 2025)",
+        "description": "Intensive training in the development of modern web applications, both frontend and backend, software architecture, and cloud deployment."
+      },
+      "course2": {
+        "title": "Higher National Diploma in International Trade",
+        "school": "I.E.S. Zaidín Vergeles (2017 – 2019)",
+        "description": "Studies focused on international business, logistics, and commercial management."
+      }
+    },
+    "work": {
+      "title": "Work Experience",
+      "job1": {
+        "title": "Full Stack Web Developer — KeepCoding, Spain",
+        "dates": "June 2024 – June 2025",
+        "tasks": [
+          "Development of full-stack web applications with React, Node.js, and MongoDB.",
+          "Implementation of REST APIs and secure JWT authentication.",
+          "Deployment of projects on AWS using Nginx and Certbot (SSL)."
+        ]
+      },
+      "job2": {
+        "title": "Sous Chef — Andanza Restaurant, London",
+        "dates": "September 2021 – April 2024",
+        "tasks": [
+          "Team coordination in high-pressure environments.",
+          "Development of time management and leadership skills.",
+          "Collaboration in menu creation and supervision of culinary quality."
+        ]
+      }
+    }
   }
+  
 
 
 

@@ -1,6 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  const { t } = useTranslation();
+
   const frontendSkills = [
     "React",
     "Vite",
@@ -9,8 +12,9 @@ export const About = () => {
     "Axios (client.js)",
     "i18next",
     "Lucide React",
-    "Custom Hooks y Components Reutilizables",
+    "Custom Hooks and Reusable Components"
   ];
+
   const backendSkills = [
     "Node.js",
     "Express",
@@ -23,18 +27,10 @@ export const About = () => {
     "JWT (jsonwebtoken)",
     "bcrypt",
     "Zod",
-    "PostMan",
+    "PostMan"
   ];
-  const softSkills = [
-    "Teamwork",
-    "Communication",
-    "Problem-solving",
-    "Adaptability",
-    "Attention to detail",
-    "Resilience",
-    "Geographic mobility",
-    "Growth mindset",
-  ];
+
+  const softSkills = t('about.softSkillsList', { returnObjects: true });
 
   return (
     <section
@@ -44,26 +40,18 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            About Me
+            {t('about.title')}
           </h2>
+
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I'm Aida Fuentes, a Full Stack Developer passionate about building
-              web applications that combine functionality with an outstanding
-              user experience. After years in demanding environments like the
-              gastronomy industry, I discovered web development as a way to
-              channel my creativity and discipline into real technological
-              solutions. I have worked with React, Node.js, and MongoDB, and
-              have deployed projects on AWS, such as BananaPeels, a complete
-              marketplace that connects users for buying and selling products
-              with real-time chat functionality. My daily motivation is to learn
-              and grow alongside teams that value collaboration, attention to
-              detail, and continuous improvement. I aim to transform ideas into
-              solid and accessible digital products for everyone.
+              {t('about.description')}
             </p>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Frontend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">🖥️ Frontend</h3>
+                <h3 className="text-xl font-bold mb-4">🖥️ {t('about.frontend')}</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
@@ -75,8 +63,10 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+
+              {/* Backend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">🧩 Backend</h3>
+                <h3 className="text-xl font-bold mb-4">🧩 {t('about.backend')}</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
@@ -90,9 +80,9 @@ export const About = () => {
               </div>
             </div>
 
-            {/* NEW SOFT SKILLS SECTION */}
+            {/* Soft Skills */}
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all mt-8">
-              <h3 className="text-xl font-bold mb-4">🧠 Soft Skills</h3>
+              <h3 className="text-xl font-bold mb-4">🧠 {t('about.softSkills')}</h3>
               <div className="flex flex-wrap gap-2">
                 {softSkills.map((skill, key) => (
                   <span
@@ -106,65 +96,43 @@ export const About = () => {
             </div>
           </div>
 
+          {/* Education and Work Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            {/* Education */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
+              <h3 className="text-xl font-bold mb-4">🎓 {t('about.education.title')}</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-4">
                 <li>
-                  <strong>Full Stack Web Development</strong> — KeepCoding Tech
-                  School (Junio 2024 – Junio 2025)
-                  <br />
-                  Intensive training in the development of modern web applications, both frontend and backend, software architecture, and cloud deployment.
+                  <strong>{t('about.education.course1.title')}</strong> — {t('about.education.course1.school')}<br />
+                  {t('about.education.course1.description')}
                 </li>
                 <li>
-                  <strong>Higher National Diploma in International Trade</strong> —
-                  I.E.S. Zaidín Vergeles (2017 – 2019)
-                  <br />
-                  Studies focused on international business, logistics, and commercial management.
+                  <strong>{t('about.education.course2.title')}</strong> — {t('about.education.course2.school')}<br />
+                  {t('about.education.course2.description')}
                 </li>
               </ul>
             </div>
 
+            {/* Work Experience */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
+              <h3 className="text-xl font-bold mb-4">💼 {t('about.work.title')}</h3>
               <div className="space-y-6 text-gray-300">
                 <div>
-                  <h4 className="font-semibold text-lg">
-                    Full Stack Web Developer — KeepCoding, España
-                  </h4>
-                  <p className="text-sm">
-                    <em>Junio 2024 – Junio 2025</em>
-                  </p>
+                  <h4 className="font-semibold text-lg">{t('about.work.job1.title')}</h4>
+                  <p className="text-sm"><em>{t('about.work.job1.dates')}</em></p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                    <li>
-                      Development of full-stack web applications with React, Node.js, and MongoDB.
-                    </li>
-                    <li>
-                      Implementation of REST APIs and secure JWT authentication.
-                    </li>
-                    <li>
-                      Deployment of projects on AWS using Nginx and Certbot (SSL).
-                    </li>
+                    {t('about.work.job1.tasks', { returnObjects: true }).map((task, idx) => (
+                      <li key={idx}>{task}</li>
+                    ))}
                   </ul>
                 </div>
-
                 <div>
-                  <h4 className="font-semibold text-lg">
-                    Sous Chef — Andanza Restaurant, London.
-                  </h4>
-                  <p className="text-sm">
-                    <em>Septiembre 2021 – Abril 2024</em>
-                  </p>
+                  <h4 className="font-semibold text-lg">{t('about.work.job2.title')}</h4>
+                  <p className="text-sm"><em>{t('about.work.job2.dates')}</em></p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                    <li>
-                      Team coordination in high-pressure environments.
-                    </li>
-                    <li>
-                      Development of time management and leadership skills.
-                    </li>
-                    <li>
-                      Collaboration in menu creation and supervision of culinary quality.
-                    </li>
+                    {t('about.work.job2.tasks', { returnObjects: true }).map((task, idx) => (
+                      <li key={idx}>{task}</li>
+                    ))}
                   </ul>
                 </div>
               </div>
