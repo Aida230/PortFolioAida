@@ -4,5 +4,12 @@
     "about": "Sobre mí",
     "projects": "Proyectos",
     "contact": "Contacto"
+  },
+  
+  "home": {
+    "title": "Bienvenido a mi portfolio, soy Aida BlueDev",
+    "description": "Soy una desarrolladora full-stack apasionada por crear aplicaciones web limpias y escalables. Mi objetivo es construir soluciones que ofrezcan un rendimiento excepcional y una experiencia de usuario agradable.",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contáctame"
   }
 }
