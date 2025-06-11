@@ -62,6 +62,13 @@
         ]
       }
     }
+  },
+    "contact": {
+    "title": "Ponte en Contacto",
+    "namePlaceholder": "Nombre...",
+    "emailPlaceholder": "ejemplo@gmail.com",
+    "messagePlaceholder": "Tu Mensaje...",
+    "sendButton": "Enviar Mensaje"
   }
 
 

@@ -61,6 +61,13 @@
         ]
       }
     }
+  },
+    "contact": {
+    "title": "Get in Touch",
+    "namePlaceholder": "Name...",
+    "emailPlaceholder": "example@gmail.com",
+    "messagePlaceholder": "Your Message...",
+    "sendButton": "Send Message"
   }
   
 
