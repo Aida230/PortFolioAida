@@ -68,6 +68,29 @@
     "emailPlaceholder": "example@gmail.com",
     "messagePlaceholder": "Your Message...",
     "sendButton": "Send Message"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": {
+      "1": {
+        "title": "BananaPeels",
+        "description": "BananaPeels is a web platform for buying and selling products between individuals. It allows users to register, manage their listings, contact sellers through real-time chat, and mark favorites."
+      },
+      "2": {
+        "title": "Password Generator",
+        "description": "This project is a random password generator where you can configure the password length and choose which types of characters to include, such as uppercase, lowercase, numbers, and symbols. It also includes functionality to copy the password to the clipboard with a single click."
+      },
+      "3": {
+        "title": "Color-Palette Generator",
+        "description": "This project is a simple tool for generating random color palettes in hexadecimal format. The palette is dynamically generated each time the user clicks the 'Generate palette' button."
+      },
+      "4": {
+        "title": "PokePop",
+        "description": "PokePop is a clone inspired by Wallapop, specifically designed for buying and selling Pokémon. It is a web application developed using HTML, CSS, and pure JavaScript (without frameworks), focused on managing products (Pokémon) and users through a clean, modular architecture."
+      }
+    }
   }
   
 

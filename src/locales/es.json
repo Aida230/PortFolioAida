@@ -69,7 +69,31 @@
     "emailPlaceholder": "ejemplo@gmail.com",
     "messagePlaceholder": "Tu Mensaje...",
     "sendButton": "Enviar Mensaje"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "items": {
+      "1": {
+        "title": "BananaPeels",
+        "description": "BananaPeels es una plataforma web para compra y venta de productos entre particulares. Permite a los usuarios registrarse, gestionar sus anuncios, contactar a vendedores mediante chat en tiempo real y marcar favoritos."
+      },
+      "2": {
+        "title": "Generador de Contraseñas",
+        "description": "Este proyecto es un generador de contraseñas aleatorias en el cual puedes configurar la longitud de la contraseña y elegir qué tipos de caracteres deseas incluir, como mayúsculas, minúsculas, números y símbolos. Además, incluye la funcionalidad para copiar la contraseña al portapapeles con un solo clic."
+      },
+      "3": {
+        "title": "Generador de Paletas de Colores",
+        "description": "Este proyecto es una herramienta simple para generar paletas de colores aleatorias en formato hexadecimal. La paleta se genera dinámicamente cada vez que el usuario hace clic en el botón 'Generate palette'."
+      },
+      "4": {
+        "title": "PokePop",
+        "description": "PokePop es un clon inspirado en Wallapop, diseñado específicamente para la compra y venta de Pokémon. Es una aplicación web desarrollada con tecnologías HTML, CSS y JavaScript puro (sin frameworks), enfocada en gestionar productos (Pokémon) y usuarios a través de una arquitectura modular y limpia."
+      }
+    }
   }
+
 
 
 

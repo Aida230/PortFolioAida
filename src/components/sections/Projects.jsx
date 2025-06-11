@@ -1,6 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { useTranslation } from "react-i18next";
 
 export const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="projects"
@@ -9,7 +12,7 @@ export const Projects = () => {
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            Featured Projects
+            {t('projects.title')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -21,9 +24,9 @@ export const Projects = () => {
                 playsInline
                 className="w-full h-72 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">BananaPeels</h3>
+              <h3 className="text-xl font-bold mb-2">{t('projects.items.1.title')}</h3>
               <p className="text-gray-400 mb-4">
-                BananaPeels is a web platform for buying and selling products between individuals. It allows users to register, manage their listings, contact sellers through real-time chat, and mark favorites.
+                {t('projects.items.1.description')}
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Vite", "TailwindCSS", "Axios", "Socket.IO Client","Node.js", "i18n", "AWS", "Ngix", "certificado SSL"].map((tech, key) => (
@@ -42,7 +45,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project ➡️
+                  {t('projects.viewProject')} ➡️
                 </a>
                                 <a
                   href="https://github.com/orgs/PruebasBananaPeelsTeam/repositories"
@@ -50,7 +53,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Code ➡️
+                  {t('projects.viewCode')} ➡️
                 </a>
               </div>
             </div>
@@ -65,9 +68,9 @@ export const Projects = () => {
                 playsInline
                 className="w-full h-72 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Password Generator</h3>
+              <h3 className="text-xl font-bold mb-2">{t('projects.items.2.title')}</h3>
               <p className="text-gray-400 mb-4">
-                This project is a random password generator where you can configure the password length and choose which types of characters to include, such as uppercase, lowercase, numbers, and symbols. It also includes functionality to copy the password to the clipboard with a single click.
+                {t('projects.items.2.description')}
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML", "CSS", "JavaScript", "Clipboard.js"].map((tech, key) => (
@@ -86,7 +89,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Code ➡️
+                  {t('projects.viewCode')} ➡️
                 </a>
               </div>
             </div>
@@ -101,10 +104,10 @@ export const Projects = () => {
                 className="w-full h-72 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold mb-2">
-                Color-Palette Generator
+                {t('projects.items.3.title')}
               </h3>
               <p className="text-gray-400 mb-4">
-                This project is a simple tool for generating random color palettes in hexadecimal format. The palette is dynamically generated each time the user clicks the "Generate palette" button.
+                {t('projects.items.3.description')}
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML", "CSS", "JavaScript"].map((tech, key) => (
@@ -123,7 +126,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Code ➡️
+                  {t('projects.viewCode')} ➡️
                 </a>
               </div>
             </div>
@@ -138,10 +141,10 @@ export const Projects = () => {
                 className="w-full h-72 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold mb-2">
-                PokePop
+                {t('projects.items.4.title')}
               </h3>
               <p className="text-gray-400 mb-4">
-                PokePop is a clone inspired by Wallapop, specifically designed for buying and selling Pokémon. It is a web application developed using HTML, CSS, and pure JavaScript (without frameworks), focused on managing products (Pokémon) and users through a clean, modular architecture.
+                {t('projects.items.4.description')}
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML", "CSS", "JavaScript"].map((tech, key) => (
@@ -160,7 +163,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Code ➡️
+                  {t('projects.viewCode')} ➡️
                 </a>
               </div>
             </div>
