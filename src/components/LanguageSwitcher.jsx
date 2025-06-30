@@ -9,7 +9,7 @@ export const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="fixed top-20 left-4 z-50 flex flex-col space-y-2">
+    <div className="flex gap-x-2 items-center">
       <button
         onClick={() => changeLanguage('en')}
         className="px-3 py-1 bg-blue-800 text-white rounded hover:bg-blue-700 transition text-sm"

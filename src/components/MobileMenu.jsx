@@ -1,6 +1,7 @@
 // src/components/MobileMenu.jsx
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   const { t } = useTranslation(); // Hook de traducción
@@ -62,6 +63,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         {t('nav.contact')}
       </a>
+      <LanguageSwitcher />
     </div>
   );
 };

@@ -1,6 +1,6 @@
-// src/components/Navbar.jsx
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   const { t } = useTranslation(); // <-- Hook de traducción
@@ -24,18 +24,31 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-300 hover:text-white transition-colors">
-              {t('nav.home')}
+            <a
+              href="#home"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {t("nav.home")}
             </a>
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">
-              {t('nav.about')}
+            <a
+              href="#about"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {t("nav.about")}
             </a>
-            <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
-              {t('nav.projects')}
+            <a
+              href="#projects"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {t("nav.projects")}
             </a>
-            <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-              {t('nav.contact')}
+            <a
+              href="#contact"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {t("nav.contact")}
             </a>
+            <LanguageSwitcher />
           </div>
         </div>
       </div>
