@@ -10,7 +10,7 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4">
+        <div className="text-center z-90 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-900 to bg-blue-600 bg-clip-text text-transparent leading-tight">
             {t('home.title')}
           </h1>

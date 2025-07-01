@@ -16,7 +16,7 @@ export const Contact = () => {
             {t("contact.title")}
           </h2>
 
-          <div className="p-8 rounded-xl border border-white/10 shadow-lg bg-white/5">
+          <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <ul className="space-y-8 text-gray-300 text-lg md:text-xl">
               <li className="flex items-center justify-center space-x-4">
                 <Mail className="w-6 h-6 text-blue-400" />
