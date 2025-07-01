@@ -39,11 +39,11 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {t('about.title')}
           </h2>
 
-          <div className="rounded-xl p-8 bg-black border border-white/10 hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <p className="text-gray-300 mb-6">
               {t('about.description')}
             </p>
@@ -99,7 +99,7 @@ export const About = () => {
           {/* Education and Work Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             {/* Education */}
-            <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-4">🎓 {t('about.education.title')}</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-4">
                 <li>
@@ -114,7 +114,7 @@ export const About = () => {
             </div>
 
             {/* Work Experience */}
-            <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-4">💼 {t('about.work.title')}</h3>
               <div className="space-y-6 text-gray-300">
                 <div>
