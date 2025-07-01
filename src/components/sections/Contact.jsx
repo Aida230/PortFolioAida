@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { RevealOnScroll } from "../RevealOnScroll";
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 export const Contact = () => {
   const { t } = useTranslation();
@@ -54,6 +54,14 @@ export const Contact = () => {
                 </a>
               </li>
             </ul>
+            <a
+              href="/CV-AIDA.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded transition"
+            >
+              📄 Ver CV
+            </a>
           </div>
         </div>
       </RevealOnScroll>
