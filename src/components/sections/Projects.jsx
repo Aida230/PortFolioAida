@@ -17,7 +17,7 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <video
-                src="/Banana.mp4"
+                src={`${import.meta.env.BASE_URL}Banana.mp4`}
                 autoPlay
                 loop
                 muted
@@ -61,7 +61,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <video
-                src="/Generate-P.mp4"
+                src={`${import.meta.env.BASE_URL}Generate-P.mp4.mp4`}
                 autoPlay
                 loop
                 muted
@@ -96,7 +96,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <video
-                src="/colorPalette.mp4"
+                src={`${import.meta.env.BASE_URL}colorPalette.mp4`}
                 autoPlay
                 loop
                 muted
@@ -133,7 +133,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl bg-black border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <video
-                src="/Pokepop.mp4"
+                src={`${import.meta.env.BASE_URL}Pokepop.mp4`}
                 autoPlay
                 loop
                 muted
