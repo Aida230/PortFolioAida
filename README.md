@@ -1,12 +1,44 @@
-# React + Vite
+# 🌐 Portfolio de Aida Fuentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio de mi portfolio personal como **Full Stack Developer**, donde muestro mis habilidades técnicas, proyectos destacados y experiencia profesional.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React, Vite, Tailwind CSS, Axios, i18next, Lucide React
+- **Backend**: Node.js, Express, MongoDB Atlas, Mongoose, JWT, bcrypt, Zod
+- **DevOps**: AWS EC2, Nginx, Certbot (SSL), Supervisor
+- **Otros**: Custom Hooks, componentes reutilizables, responsive design, animaciones con Intersection Observer
 
-## Expanding the ESLint configuration
+## 🧠 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ **Pantalla de carga animada** con efecto de máquina de escribir (`<Hello World />`)
+- 🌀 **Animaciones al hacer scroll** usando `IntersectionObserver`
+- 🌍 **Soporte multilenguaje** con `i18next`
+- 📱 **Menú móvil responsive** con animaciones suaves
+- 🧩 **Proyectos destacados** en tarjetas interactivas con vídeos demostrativos
+- 🎨 **Fondo animado de partículas** usando `@tsparticles`
+
+## 🖼️ Secciones del Portfolio
+
+### 🔹 Home
+Pantalla inicial con diseño atractivo y transición desde la pantalla de carga.
+
+### 🔹 About
+Breve biografía, stack tecnológico (frontend, backend, soft skills), educación y experiencia profesional.
+
+### 🔹 Projects
+Presentación visual de proyectos destacados como:
+- **BananaPeels** – Marketplace completo con chat en tiempo real
+- **Password Generator** – Generador de contraseñas
+- **Color Palette Generator** – Herramienta de diseño para colores
+- **Pokepop** – App visual de Pokémon
+
+### 🔹 Contact
+Información de contacto (email, teléfono, LinkedIn, GitHub).
+
+## 🌐 Demo en Vivo
+
+🔗 [BananaPeels Marketplace](https://bananapeels.duckdns.org/)
+
+
+

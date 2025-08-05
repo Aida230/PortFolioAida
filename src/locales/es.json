@@ -90,6 +90,10 @@
       "4": {
         "title": "PokePop",
         "description": "PokePop es un clon inspirado en Wallapop, diseñado específicamente para la compra y venta de Pokémon. Es una aplicación web desarrollada con tecnologías HTML, CSS y JavaScript puro (sin frameworks), enfocada en gestionar productos (Pokémon) y usuarios a través de una arquitectura modular y limpia."
+      },
+      "5": {
+        "title": "Mood Weather — Estado de ánimo según el clima",
+        "description": "Mood Weather es una aplicación full stack que conecta el clima actual de una ciudad con un estado de ánimo, actividad recomendada y una frase inspiradora. El usuario introduce una ciudad, y la app responde con un conjunto personalizado basado en datos climáticos reales. Ideal para quienes buscan inspiración o conexión emocional con su entorno."
       }
     }
   }
