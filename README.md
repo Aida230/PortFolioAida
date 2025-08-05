@@ -29,6 +29,7 @@ Breve biografía, stack tecnológico (frontend, backend, soft skills), educació
 ### 🔹 Projects
 Presentación visual de proyectos destacados como:
 - **BananaPeels** – Marketplace completo con chat en tiempo real
+- **Mood-Weather** - Estado de ánimo según el clima
 - **Password Generator** – Generador de contraseñas
 - **Color Palette Generator** – Herramienta de diseño para colores
 - **Pokepop** – App visual de Pokémon
@@ -39,6 +40,7 @@ Información de contacto (email, teléfono, LinkedIn, GitHub).
 ## 🌐 Demo en Vivo
 
 🔗 [BananaPeels Marketplace](https://bananapeels.duckdns.org/)
+🔗 [Mood-Weather](https://mood-weather-frontend.vercel.app/)
 
 
 
