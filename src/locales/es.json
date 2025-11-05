@@ -94,6 +94,10 @@
       "5": {
         "title": "Mood Weather — Estado de ánimo según el clima",
         "description": "Mood Weather es una aplicación full stack que conecta el clima actual de una ciudad con un estado de ánimo, actividad recomendada y una frase inspiradora. El usuario introduce una ciudad, y la app responde con un conjunto personalizado basado en datos climáticos reales. Ideal para quienes buscan inspiración o conexión emocional con su entorno."
+      },
+      "6": {
+        "title": "Plataforma analítica",
+        "description": "Plataforma Analítica de Datos es un dashboard web interactivo desarrollado con Next.js, React y Tailwind CSS, diseñado para visualizar KPIs clave de tráfico, ventas y rendimiento empresarial. Su objetivo es ofrecer a ejecutivos y analistas una interfaz moderna, clara y adaptable para analizar métricas en tiempo real, con gráficos dinámicos y componentes reutilizables."
       }
     }
   }

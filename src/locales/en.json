@@ -93,6 +93,10 @@
       "5": {
         "title": "Mood Weather — Mood Based on the Weather",
         "description": "Mood Weather is a full-stack application that connects a city's current weather with a mood, a recommended activity, and an inspirational quote. The user enters a city, and the app responds with a personalized set based on real weather data. Ideal for those seeking inspiration or an emotional connection with their surroundings."
+      },
+      "6": {
+        "title": "Data Analytics Platform",
+        "description": "Data Analytics Platform is an interactive web dashboard built with Next.js, React, and TailwindCSS, designed to visualize key KPIs such as traffic, sales and bussiness perfonmance. Its goal is to provide executives and analysts with a modern, clean, and adaptable interface to explore real-time metrics through dynamyc charts and reusable components."
       }
     }
   }
