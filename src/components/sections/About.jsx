@@ -7,7 +7,9 @@ export const About = () => {
   const frontendSkills = [
     "React",
     "Vite",
+    "Next.js",
     "JavaScript",
+    "TypeScript",
     "Tailwind CSS",
     "Axios (client.js)",
     "i18next",
@@ -18,16 +20,20 @@ export const About = () => {
   const backendSkills = [
     "Node.js",
     "Express",
+    "Prisma ORM",
+    "PostgreSQL",
+    "pgAdmin",
+    "MongoDB Atlas",
+    "PostMan",
     "AWS EC2",
     "Nginx",
     "Certbot (SSL)",
     "Supervisor",
-    "MongoDB Atlas",
     "Mongoose",
     "JWT (jsonwebtoken)",
     "bcrypt",
     "Zod",
-    "PostMan"
+    "Docker + Docker-compose"
   ];
 
   const softSkills = t('about.softSkillsList', { returnObjects: true });
