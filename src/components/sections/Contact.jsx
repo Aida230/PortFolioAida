@@ -55,7 +55,7 @@ export const Contact = () => {
               </li>
             </ul>
             <a
-              href="/Aida-Fuentes-CV.pdf"
+              href="/Aida-Fuentes-de-la-Fuente-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-6 bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded transition"
